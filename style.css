@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: calc(100vh - 6px);
+    min-width: 640px;
+}
+
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    margin: 6px 0;
+    font-size: 45px;
+}
+
+.game-container{
+    width: 600px;
+    height: 600px;
+    background-color:#009E60;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field{
+    width: 33%;
+    height: 33%;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+    text-align: center;
+}
+.field > p {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.reset-btn{
+    background: transparent;
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    margin-left: 18px;
+}
+
+.players-info-container{
+    width: 540px;
+    margin: auto;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
